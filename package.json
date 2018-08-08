@@ -1,0 +1,21 @@
+{
+  "name": "video-to-gif",
+  "version": "1.0.0",
+  "description": "service for create gif animation from video ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "video",
+    "gif",
+    "ffmpeg"
+  ],
+  "author": "Volodymyr Paskiv",
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "hapi": "^17.5.3",
+    "youtube-dl": "^1.12.2"
+  }
+}
